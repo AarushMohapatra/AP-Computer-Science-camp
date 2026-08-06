@@ -2,7 +2,9 @@ import java.util.Scanner;
 public class Calculator {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("welcome to the calculator!");
+        System.out.println("welcome to the calculator!\nwhats your name?");
+        String name = sc.nextLine();
+        System.out.println("hey "+name+"! nice to meet you! I'll ask you for 2 numbers and then I'll tell you what the sum, difference, product, quotient, and remainder is.");
         boolean play = true;
         while (play) {
             //input
