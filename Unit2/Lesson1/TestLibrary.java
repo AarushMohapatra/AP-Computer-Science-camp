@@ -30,6 +30,6 @@ public class TestLibrary {
         myLibrary.returnBook("Dune");
         myLibrary.checkBookOut("birds");
         myLibrary.addBook(new Book("Best book ever","SuspiciousPerson"));
-
+        System.out.println(myLibrary.findBook("vehicle").getBookInfo());
     }
 }

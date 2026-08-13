@@ -49,12 +49,12 @@ public class Library {
             return false;
         }
     }
-    public String findBook(String title) {
+    public Book findBook(String title) {
         if (GetBookLocationByTitle(title) != -1) {
-            return books[GetBookLocationByTitle(title)].getTitle();
+            return books[GetBookLocationByTitle(title)];
         } else {
             System.err.println("No book found with given title.");
-            return "Error 404";
+            return null;
         }
     }
     public void checkBookOut(String title) {

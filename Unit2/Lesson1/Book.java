@@ -18,13 +18,20 @@ public class Book {
         this.yearPublished = 2026;
         this.isCheckedOut = false;
     }
-    public Book(String title, String author, int pages) {
+    public Book(String title, String author, int yearPublished) {
+        this.title = title;
+        this.author = author;
+        this.pages = 0;
+        this.yearPublished = yearPublished;
+        this.isCheckedOut = false;
+    }
+    /*public Book(String title, String author, int pages) { Commented out to not cause errors
         this.title = title;
         this.author = author;
         this.pages = pages;
         this.yearPublished = 2026;
         this.isCheckedOut = false;
-    }
+    }*/
     public String getTitle() {
         return title;
     }
