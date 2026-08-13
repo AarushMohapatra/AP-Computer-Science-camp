@@ -1,3 +1,4 @@
+package Unit1.Lesson2;
 import java.util.Scanner;
 
 public class FunMoneyManager {
