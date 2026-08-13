@@ -15,7 +15,7 @@ public class Book {
         this.title = title;
         this.author = author;
         this.pages = 0;
-        this.yearPublished = 2026;
+        this.yearPublished = java.time.Year.now().getValue();
         this.isCheckedOut = false;
     }
     public Book(String title, String author, int yearPublished) {
