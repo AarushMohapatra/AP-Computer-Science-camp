@@ -1,4 +1,4 @@
-package Unit2.Lesson1;
+package Unit2.Lesson1.Project;
 
 public class Book {
     private String title, author;

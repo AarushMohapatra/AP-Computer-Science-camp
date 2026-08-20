@@ -1,4 +1,4 @@
-package Unit2.Lesson1;
+package Unit2.Lesson1.Project;
 
 public class TestLibrary {
     public static void main(String[] args) {
@@ -29,7 +29,7 @@ public class TestLibrary {
         myLibrary.displayAllBooks();
         myLibrary.returnBook("Dune");
         myLibrary.checkBookOut("birds");
-        myLibrary.addBook(new Book("Best book ever","SuspiciousPerson"));
+        myLibrary.addBook(new Book("Best book ever", "SuspiciousPerson"));
         System.out.println(myLibrary.findBook("vehicle").getBookInfo());
     }
 }

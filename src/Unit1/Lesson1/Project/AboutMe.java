@@ -1,4 +1,4 @@
-package Unit1.Lesson1;
+package Unit1.Lesson1.Project;
 public class AboutMe {
     public static void main(String[] args) { //make program run
         System.out.println("hello there"); // we tell user hi because we want to make them feel at home (not true)
