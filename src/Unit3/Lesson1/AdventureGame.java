@@ -1,4 +1,5 @@
 package Unit3.Lesson1;
+//program not started, will start soon
 import java.util.Scanner;
 public class AdventureGame {
     public static void main(String[] args) {
@@ -18,8 +19,10 @@ public class AdventureGame {
         System.out.println("You have " + health + " health and " + gold + " gold coins.");
         System.out.println("\nDo you want to enter the cave? (yes/no)");
         String choice1 = input.nextLine();
+        boolean opItem = false;
         if (choice1.equals("yes")) {
             System.out.println("You bravely enter the dark cave...");
+
         } else {
             System.out.println("You decide not to enter the cave.");
         }

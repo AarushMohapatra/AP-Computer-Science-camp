@@ -1,0 +1,2 @@
+# Super_Adventure was forked from this repo: https://github.com/dmfinle/super_adventure/tree/main
+## All credits goes to dmfinle for the original templete code. Program code was forked as requested from the owner of that repo for to be completed for the last class in the summer camp.
