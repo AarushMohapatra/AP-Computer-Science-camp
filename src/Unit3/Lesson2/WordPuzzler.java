@@ -74,8 +74,8 @@ public class WordPuzzler {
                 default:
                     break;
             }
-            System.out.println("There are " + count + " vowels in your word.");
         }
+        System.out.println("There are " + count + " vowels in your word.");
     }
     public static void scrambleWord(String word) {
         char[] WORD = word.toCharArray(); //we convert word to char so we can easily mess with each letter
@@ -86,18 +86,17 @@ public class WordPuzzler {
             WORD[location] = WORD[location2];
             WORD[location2] = temp;
         }
-        System.out.println(WORD.toString() /*you know we dont wanna output the char array that would be bad*/ );
+        System.out.println(new String(WORD) /*you know we dont wanna output the char array that would be bad*/ );
 
     }
     public static void createWordPyramid(String word) {
         System.out.println("Word Pyramid:");
-        for (int i = 1; i <= word.length(); i++) { //word pyramid? i thought you meant triangle heehaw no more 3d for you (2D is better for console)
-            for (int i2 = 1; i2 <= word.length() - i; i2++) {
-                System.out.print(" ");
-            }
+        int i = 1;
+        while (i <= 5) {
             for (int i2 = 1; i2 <= i; i2++) {
-                System.out.print(" " + word); // this makes it in like a isosceles triangle shape (kinda)
+                System.out.print(" " + word);
             }
+            i++;
             System.out.println();
         }
     }
