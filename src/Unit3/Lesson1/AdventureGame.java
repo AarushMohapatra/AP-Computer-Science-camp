@@ -38,6 +38,13 @@ public class AdventureGame {
                 gold += 5;
                 health-=2;
             }
+            System.out.println("You found a big pile of gold. Collect it? (yes/no)");
+            choice = input.nextLine();
+            if (choice.equals("yes")) {
+                
+            } else {
+                
+            }
         } else {
             System.out.println("You decide not to enter the cave. There could have been an exciting adventure, but I guess its safe to not go...");
         }
