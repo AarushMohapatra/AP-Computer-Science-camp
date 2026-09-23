@@ -1,4 +1,4 @@
-package Unit4.Lesson1;
+package SummerCamp.Unit4.Lesson1;
 import java.util.Scanner;
 public class SecretCodeGenerator {
     public static void main(String[] args) {

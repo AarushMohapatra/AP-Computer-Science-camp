@@ -1,4 +1,4 @@
-package Unit2.Lesson2;
+package SummerCamp.Unit2.Lesson2;
 
 class Student {
     private String name;

@@ -1,4 +1,4 @@
-package Unit2.Lesson2;
+package SummerCamp.Unit2.Lesson2;
 import java.util.Scanner;
 
 public class StudentManagement {

@@ -1,4 +1,4 @@
-package Unit3.Lesson1;
+package SummerCamp.Unit3.Lesson1;
 import java.util.Scanner;
 public class AdventureGame {
     public static void main(String[] args) {

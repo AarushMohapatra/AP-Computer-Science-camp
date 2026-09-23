@@ -1,4 +1,4 @@
-package Unit2.Lesson2.Project;
+package SummerCamp.Unit2.Lesson2.Project;
 
 public class Pet {
     // Variables/Fields

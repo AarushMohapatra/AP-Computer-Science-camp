@@ -1,4 +1,4 @@
-package Unit2.Lesson1.Project;
+package SummerCamp.Unit2.Lesson1.Project;
 
 public class TestLibrary {
     public static void main(String[] args) {
