@@ -48,5 +48,6 @@ public class AdventureGame {
         } else {
             System.out.println("You decide not to enter the cave. There could have been an exciting adventure, but I guess its safe to not go...");
         }
+        input.close();
     }
 }

@@ -55,6 +55,6 @@ public class MyFirstPrograms {
         int hours = seconds / 3600;
         int minutes = (seconds % 3600) / 60;
         int remainingSeconds = seconds % 60;
-        System.out.println(hours+", "+minutes+", "+remainingSeconds+".");
+        System.out.println(hours+" hours, "+minutes+" minutes, "+remainingSeconds+" seconds.");
     }
 }
